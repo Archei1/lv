@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Симфония для тебя</title>
+    <title>Для кармельки</title>
     <style>
         body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; cursor: pointer; }
         canvas { display: block; background: radial-gradient(ellipse at center, #1b2735 0%, #090a0f 100%); }
@@ -169,7 +169,7 @@
 
         if (state === 'REFORMING' && isReformed(pos, tar)) {
             state = 'COOLDOWN'; 
-            cooldownTimer = 3.0; 
+            cooldownTimer = 0.0; 
             messageEl.style.opacity = 1;
         }
 
